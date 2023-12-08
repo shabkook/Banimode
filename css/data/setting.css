@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: yekan;
+  src: url("../../fonts/fa/IRANYekanWebFn.eot");
+  src: url("../../fonts/fa/IRANYekanWebFn.ttf");
+  src: url("../../fonts/fa/IRANYekanWebFn.woff");
+  src: url("../../fonts/fa/IRANYekanWebFn.woff2");
+}
+
+@font-face {
+  font-family: bangers;
+  src: url("../../fonts/Bangers-Regular.eot");
+  src: url("../../fonts/Bangers-Regular.ttf");
+  src: url("../../fonts/Bangers-Regular.woff");
+  src: url("../../fonts/Bangers-Regular.woff2");
+}
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  width: 1150px;
+}

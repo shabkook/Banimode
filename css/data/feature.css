@@ -1,0 +1,213 @@
+.feature {
+  width: 100%;
+  height: 400px;
+  /* background-color: black; */
+  margin: 0 auto;
+  padding: 50px;
+  justify-items: baseline;
+  align-items: center;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.feature .featuremain {
+  width: 1150px;
+  height: 300px;
+  /* background-color: whitesmoke; */
+  margin: 0 auto;
+  /* display: block; */
+  
+}
+
+.feature .featuremain .aftersale {
+  width: 25%;
+  height: inherit;
+  padding: 10px;
+  margin-right: 50px;
+  position: relative;
+}
+
+.feature .featuremain .aftersale img {
+  margin: 10px 0;
+  z-index: 80;
+}
+
+.feature .featuremain .aftersale h1 {
+  /* display: inline-block ; */
+  margin: 100px auto;
+  /* position: absolute;
+  top:200px; */
+  z-index: 80px;
+}
+
+.feature .featuremain .aftersale p {
+  width: 250px;
+  margin: 0 0;
+  text-align: center;
+  direction: rtl;
+  text-justify: distribute;
+  font-size: 18px;
+  z-index: 80;
+  position: absolute;
+  left: 90px;
+}
+
+.feature .featuremain .aftersale img[id="circle"] {
+  width: 220px;
+  margin: 0 auto;
+  position: absolute;
+  top: 110px;
+  left: 110px;
+  /* z-index: 1000; */
+  opacity: 0.3;
+}
+
+.feature .featuremain .aftersale img[id="circle"]:hover {
+  opacity: 0.1;
+}
+
+.feature .featuremain .gurantee {
+  width: 25%;
+  height: inherit;
+  padding: 10px;
+  margin-right: 350px;
+  position: relative;
+  top: -101%;
+}
+
+.feature .featuremain .gurantee img {
+  margin: 0 20px;
+  z-index: 80;
+}
+
+.feature .featuremain .gurantee h1 {
+  /* display: inline-block ; */
+  margin: 100px auto;
+  /* position: absolute;
+  top:200px; */
+  z-index: 80px;
+}
+
+.feature .featuremain .gurantee p {
+  width: 250px;
+  margin: 0 0;
+  text-align: center;
+  direction: rtl;
+  text-justify: distribute;
+  font-size: 18px;
+  z-index: 80;
+  position: absolute;
+  left: 90px;
+}
+
+.feature .featuremain .gurantee img[id="circle"] {
+  width: 220px;
+  margin: 0 auto;
+  position: absolute;
+  top: 90px;
+  left: 110px;
+  /* z-index: 1000; */
+  opacity: 0.3;
+}
+
+.feature .featuremain .gurantee img[id="circle"]:hover {
+  opacity: 0.1;
+}
+
+.feature .featuremain .originality {
+  width: 25%;
+  height: inherit;
+  padding: 10px;
+  margin-right: 650px;
+  position: relative;
+  top: -206%;
+}
+
+.feature .featuremain .originality img {
+  margin: 0 20px;
+  z-index: 80;
+}
+
+.feature .featuremain .originality h2 {
+   /* display: inline-block ; */
+   /* margin: 0 auto; */
+   /* text-align: center center;  */
+   /* position: absolute;
+   top:150px;
+   z-index: 80px; */
+   margin-right: 20px;
+}
+
+.feature .featuremain .originality p {
+  width: 250px;
+  margin: 0 0;
+  text-align: center;
+  direction: rtl;
+  text-justify: distribute;
+  font-size: 18px;
+  z-index: 80;
+  position: absolute;
+  left: 90px;
+}
+
+.feature .featuremain .originality img[id="circle"] {
+  width: 220px;
+  margin: 0 auto;
+  position: absolute;
+  top: 90px;
+  left: 110px;
+  /* z-index: 1000; */
+  opacity: 0.3;
+}
+
+.feature .featuremain .originality img[id="circle"]:hover {
+  opacity: 0.1;
+}
+
+.feature .featuremain .fastsend {
+  width: 25%;
+  height: inherit;
+  padding: 10px;
+  margin-right: 920px;
+  position: relative;
+  top: -310%;
+}
+
+.feature .featuremain .fastsend img {
+  margin: 0 10px;
+  z-index: 80;
+}
+
+.feature .featuremain .fastsend h1 {
+  /* display: inline-block ; */
+  margin: 100px auto;
+  /* position: absolute;
+  top:200px; */
+  z-index: 80px;
+}
+
+.feature .featuremain .fastsend p {
+  width: 250px;
+  margin: 0 0;
+  text-align: center;
+  direction: rtl;
+  text-justify: distribute;
+  font-size: 18px;
+  z-index: 80;
+  position: absolute;
+  left: 90px;
+}
+
+.feature .featuremain .fastsend img[id="circle"] {
+  width: 220px;
+  margin: 0 auto;
+  position: absolute;
+  top: 90px;
+  left: 110px;
+  /* z-index: 1000; */
+  opacity: 0.3;
+}
+
+.feature .featuremain .fastsend img[id="circle"]:hover {
+  opacity: 0.1;
+}

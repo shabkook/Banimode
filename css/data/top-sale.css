@@ -1,0 +1,168 @@
+.top-sale {
+  width: 80%;
+  height: 700px;
+  margin: 0 auto;
+  /* background-color: #2b2b2b; */
+  /* padding: 60px; */
+  box-sizing: border-box;
+}
+
+/* .top-sale .center {
+  width: 1150px;
+  height: 500px;
+  /* background-color: green; 
+  margin: 0 auto;
+} */
+
+.top-sale .top-sale-top {
+  width: 100%;
+  height: 66px;
+}
+.top-sale .top-sale-top .top-sale-logo h1 {
+  /* width: 1150px; */
+  /* height: 50px; */
+  /* padding-bottom: 20px; */
+  /* margin-left: 510px; */
+  font-family: yekan;
+  font-size: 30px;
+  font-weight: bold;
+  color: #2b2b2b;
+  text-align: center;
+  background-color: rgb(253, 253, 250);
+  /* border-radius: 10%; */
+  line-height: 50px;
+  /* box-shadow: 5px 5px 25px black; */
+  margin-bottom: 20px;
+}
+.top-sale-top .top-sale-countdown {
+  width: auto;
+  height: auto;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flex {
+  flex-direction: column !important;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.swiper-slide .price {
+  width: 100%;
+}
+.swiper-slide .price .left,
+.swiper-slide .price .right {
+  display: inline-block;
+  width: 45%;
+  direction: rtl;
+  font-family: bangers;
+  font-size: larger;
+  color: #2b2b2b;
+}
+
+.swiper-slide .price .left {
+  text-align: left;
+  text-decoration: line-through;
+}
+
+.swiper-slide .price .right {
+  text-align: right;
+  text-transform: capitalize;
+}
+
+.swiper-slide .text {
+  width: 100%;
+}
+.swiper-slide .text .left,
+.swiper-slide .text .right {
+  display: inline-block;
+  width: 45%;
+  direction: rtl;
+  font-family: yekan;
+  font-size: medium;
+  color: green;
+}
+
+.swiper-slide .text .left {
+  text-align: left;
+  text-decoration: double;
+  font-weight: bold;
+}
+
+.swiper-slide .text .right {
+  text-align: right;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.swiper-slide .size {
+  width: 100%;
+}
+.swiper-slide .size .right {
+  display: inline;
+  width: 20%;
+}
+
+.swiper-slide .size .right p {
+  display: inline-block;
+  margin-top: 5px;
+  width: 15%;
+  font-family: yekan;
+  font-size: large;
+  color: blueviolet;
+  border: 1.5px dashed #2b2b2b;
+  font-size: medium;
+}
+
+.top-sale .topsalesallbrand {
+  width: 270px;
+  height: 50px;
+  /* background-color: blanchedalmond; */
+  margin: 10px auto;
+  box-sizing: border-box;
+  border-radius: 50px;
+  border: 1px solid #2b2b2b;
+}
+
+.top-sale .topsalesallbrand a {
+  all: unset;
+  text-align: center;
+  font-size: 14px;
+  line-height: 50px;
+  font-weight: bold;
+  font-family: yekan;
+  cursor: pointer;
+  color: #00bf6f;
+  padding: 90px;
+}
+
+.top-sale .topsalesallbrand:hover {
+  border: 2px solid lightgreen;
+  box-shadow: 2px 2px 5px #2b2b2b;
+}

@@ -1,0 +1,109 @@
+.banimag {
+  width: 100%;
+  height: 400px;
+  /* background-color: #2b2b2b; */
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+.banimag .banimag-center {
+  width: 1150px;
+  height: 200px;
+  /* background-color: green; */
+  margin: 0 auto;
+}
+
+.banimag-top {
+  width: 100%;
+  height: 66px;
+}
+.banimag-top .banimag-logo h1 {
+  width: 100%;
+  height: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: yekan;
+  font-size: 30px;
+  font-weight: bold;
+  color: #2b2b2b;
+  background-color: rgb(253, 253, 250);
+  /* border-radius: 10%; */
+  line-height: 66px;
+  /* box-shadow: 5px 5px 25px black; */
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.banimag .banimag-center .swiper {
+  width: 100%;
+  height: 300px;
+}
+
+.banimag .banimag-center .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banimag .banimag-center .mySwiper5 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.flex {
+  flex-direction: column !important;
+}
+
+.banimag .banimag .banimag-center .swiper-slide img {
+  width: 90%;
+  height: 190px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.banimag .swiper-slide .subtitle {
+  width: 90%;
+  /* margin-top: 10px; */
+  text-align: right;
+  /* box-sizing: border-box; */
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  /* display: inline-block; */
+  direction: rtl;
+  font-family: yekan;
+  font-size: medium;
+  color: #2b2b2b;
+}
+
+.banimag .topsalesallbrand {
+  width: 270px;
+  height: 50px;
+  /* background-color: blanchedalmond; */
+  margin: 100px auto;
+  box-sizing: border-box;
+  border-radius: 50px;
+  border: 1px solid #2b2b2b;
+}
+
+.banimag .topsalesallbrand a {
+  all: unset;
+  text-align: center;
+  font-size: 14px;
+  line-height: 50px;
+  font-weight: bold;
+  font-family: yekan;
+  cursor: pointer;
+  color: #00bf6f;
+  padding: 90px;
+}
+
+.banimag .topsalesallbrand:hover {
+  border: 2px solid lightgreen;
+  box-shadow: 2px 2px 5px #2b2b2b;
+}
